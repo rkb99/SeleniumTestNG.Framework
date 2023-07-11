@@ -12,8 +12,7 @@ public class loginpageobjects {
 	 private By password = By.xpath("//input[@id='password']");
 	 private By login = By.xpath("//input[@name='Login']");
 	 private By tryForFree=By.xpath("//a[@id='signup_link']");
-
-	private By errorMessage;
+	 private By errorMessage=By.xpath("//div[@id='error']");
 	 
 	 public loginpageobjects(WebDriver driver2) {
 		this.driver=driver2;
